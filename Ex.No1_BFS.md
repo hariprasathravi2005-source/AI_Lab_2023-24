@@ -1,6 +1,6 @@
 # Ex.No: 1  Implementation of Breadth First Search 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 19/8/2025                                                                      
+### REGISTER NUMBER : 212223060165
 ### AIM: 
 To write a python program to implement Breadth first Search. 
 ### Algorithm:
@@ -13,20 +13,9 @@ To write a python program to implement Breadth first Search.
 7.   Call the bfs function by passing arguments visited, graph and starting node.
 8.   Stop the program.
 ### Program:
-
-
-
-
-
-
-
-
-
-
-
+<img width="366" height="589" alt="image" src="https://github.com/user-attachments/assets/3b1c0b40-c2cd-4407-b46c-36134e15e07e" />
 ### Output:
-
-
+![WhatsApp Image 2025-08-28 at 12 02 31_f60e37a8](https://github.com/user-attachments/assets/633a4d40-67a7-48e0-855b-b6423aab06fa)
 
 ### Result:
 Thus the breadth first search order was found sucessfully.
