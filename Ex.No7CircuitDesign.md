@@ -1,9 +1,9 @@
-# Ex.No: 7  Logic Programming –  Logic Circuit Design
-### DATE:13/09/2025                                                                           
-### REGISTER NUMBER :212223060165 
-### AIM: 
+# Ex.No: 7 Logic Programming – Logic Circuit Design
+### DATE:25/10/2025
+### REGISTER NUMBER :212223060081
+### AIM:
 To write a logic program to design a circuit like half adder and half subtractor.
-###  Algorithm:
+### Algorithm:
 1. Start the Program
 2. Design a AND gate logic if both inputs are 1 then output is 1.
 3. Design a OR gate logic if any one of input is 1 then output is 1.
@@ -30,18 +30,18 @@ or(1,0,1).
 or(0,0,0).
 or(1,1,1).
 halfadder(A,B,Sum,Carry):-
-    xor(A,B,Sum),
-    and(A,B,Carry).
+xor(A,B,Sum),
+and(A,B,Carry).
 halfsubtractor(A,B,Diff,Carry):-
-    xor(A,B,Diff),
-    not(A,C),
-     and(C,B,Carry).
+xor(A,B,Diff),
+not(A,C),
+and(C,B,Carry).
 fulladder(A,B,Cin,S,Cout):-
-    xor(A,B,X),
-    xor(X,Cin,S),
-    and(X,Cin,Y),
-    and(A,B,Z),
-    or(Y,Z,Cout).
+xor(A,B,X),
+xor(X,Cin,S),
+and(X,Cin,Y),
+and(A,B,Z),
+or(Y,Z,Cout).
 ```
 
 
